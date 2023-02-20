@@ -24,46 +24,57 @@ body {
 }
 
 /* Logo Header */
+.site-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-mobile#show {
+  background: hsla(240, 100%, 5%, 0.5);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
 .nav-mobile#show ul {
   background-color: var(--Off-white);
+  height: 100%;
   width: 65%;
-  height: 80%;
-  display: block;
-  list-style: none;
   position: absolute;
   left: 35%;
-  padding: 0 20px;
+  padding: 20px;
 }
 
-.nav-mobile#hide{
+.nav-mobile#hide {
   display: none;
 }
 
-.nav-mobile#show .list-item {
-  margin-top: 100px;
+ul {
+  list-style: none;
 }
 
-.nav-mobile#show .list-item li {
+.nav-mobile#show .list-item {
+  padding-top: 90px;
+}
+
+.nav-mobile#show li {
   margin-top: 30px;
 }
 
 .icon-menu-close {
-  float: right;
+  position: absolute;
+  right: 15px;
 }
 
-.show-nav-desktop{
-    display: none;
+.show-nav-desktop {
+  display: none;
 }
 
 .site-nav li:hover {
   cursor: pointer;
   color: var(--Soft-red);
-}
-
-.site-nav {
-  display: flex;
-  justify-content: space-between;
 }
 
 .icon-menu {
