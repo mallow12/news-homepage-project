@@ -25,15 +25,35 @@ body {
 
 /* Logo Header */
 
-.show-nav {
+.nav-mobile#show ul {
+  background-color: var(--Off-white);
+  width: 65%;
+  height: 80%;
   display: block;
   list-style: none;
-  /* position: absolute; */
-  text-align: center;
+  position: absolute;
+  left: 35%;
+  padding: 0 20px;
 }
 
-.hide-nav {
+.nav-mobile#hide{
   display: none;
+}
+
+.nav-mobile#show .list-item {
+  margin-top: 100px;
+}
+
+.nav-mobile#show .list-item li {
+  margin-top: 30px;
+}
+
+.icon-menu-close {
+  float: right;
+}
+
+.show-nav-desktop{
+    display: none;
 }
 
 .site-nav li:hover {
@@ -49,8 +69,6 @@ body {
 .icon-menu {
   object-fit: contain;
 }
-
-/* Container */
 
 /* About Section */
 
@@ -192,7 +210,7 @@ h1 {
     padding: 50px 30px;
   }
 
-  .show-nav {
+  .nav-mobile#show {
     display: none;
   }
 
@@ -201,7 +219,7 @@ h1 {
     justify-content: space-between;
   }
 
-  .site-nav ul {
+  .show-nav-desktop {
     display: flex;
     list-style: none;
   }
@@ -213,9 +231,6 @@ h1 {
   .icon-menu {
     display: none;
   }
-  /* .mobile-image {
-    display: none;
-   } */
 
   .mobile-image {
     display: block;
@@ -250,17 +265,11 @@ h1 {
     padding: 50px 100px;
   }
 
-  /* .container{
-    max-width: 1060px;
-    margin: 65px auto;
-  } */
-
   .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
-
 
   /* About section */
   .mobile-image {
@@ -270,13 +279,6 @@ h1 {
   .desktop-image {
     display: block;
     grid-column: 1/3;
-    /* width: 100%; */
-    /* height: 100vh; */
-  }
-
-  .desktop-image img {
-    /* width: 100%; */
-    object-fit: contain;
   }
 
   .news {
