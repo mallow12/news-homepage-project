@@ -1,6 +1,6 @@
 # Frontend Mentor - News homepage solution
 
-This is a solution to the [News homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [News homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github link](https://github.com/mallow12/news-homepage-project)
+- Live Site URL: [live site link](https://abdullah-news-homepage.netlify.app/)
 
 ## My process
 
@@ -50,38 +50,39 @@ Users should be able to:
 This project thought me more about implementing grid into websites designs and also using a mobile first approach.
 
 ```html
-  <div class="nav-mobile" id="hide">
-        <ul>
-          <img
-            src="assets/images/icon-menu-close.svg"
-            alt="icon-menu-close"
-            class="icon-menu-close"
-          />
-          <div class="list-item">
-            <li>Home</li>
-            <li>New</li>
-            <li>Popular</li>
-            <li>Trending</li>
-            <li>Categories</li>
-          </div>
-        </ul>
-      </div>
-      <ul class="show-nav-desktop">
-        <li>Home</li>
-        <li>New</li>
-        <li>Popular</li>
-        <li>Trending</li>
-        <li>Categories</li>
-      </ul>
+<div class="nav-mobile" id="hide">
+  <ul>
+    <img
+      src="assets/images/icon-menu-close.svg"
+      alt="icon-menu-close"
+      class="icon-menu-close"
+    />
+    <div class="list-item">
+      <li>Home</li>
+      <li>New</li>
+      <li>Popular</li>
+      <li>Trending</li>
+      <li>Categories</li>
+    </div>
+  </ul>
+</div>
+<ul class="show-nav-desktop">
+  <li>Home</li>
+  <li>New</li>
+  <li>Popular</li>
+  <li>Trending</li>
+  <li>Categories</li>
+</ul>
 ```
 
 ```css
 .grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-  }
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
 ```
+
 ### Continued development
 
 I want to focus more on building mobile first designs in my future projects and also getting better with using Grid method.
@@ -89,5 +90,3 @@ I want to focus more on building mobile first designs in my future projects and 
 ## Author
 
 - Frontend Mentor - [@mallow12](https://www.frontendmentor.io/profile/mallow12)
-
-
