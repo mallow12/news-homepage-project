@@ -327,6 +327,10 @@ h1 {
     margin-top: 70px;
   }
 
+  .footer-image img {
+    height: 100%;
+  }
+
   .footer-section h4 {
     font-size: 17px;
   }
